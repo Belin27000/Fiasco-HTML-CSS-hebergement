@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mon restaurant, contact</title>
+</head>
+<body>
+    <header>
+        <h1>Nous contacter</h1>
+        <nav>
+            <a href="index.html" title="Acceuil">Acceuil</a>
+            <a href="menu.html" title="Voir le menu">Menu</a>
+            <a href="contact.html" title="Nous contacter">Contact</a>
+        </nav>
+        <img src="img/Baniere-restaurant-fiasco.jpg" alt="image intérieur du restaurant" width="1260" height="366">
+    </header>
+    <section>
+        <h2>Où nous trouver</h2>
+        <p>
+            123 rue de la demonstration<br>
+            34000 Momntpellier<br>
+            FRANCE<br>
+        </p>
+        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1444.4908307276112!2d3.867774836173007!3d43.60692344010465!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x12b6afab983c6a37%3A0x74f18402aa36d2e2!2s10%20Rue%20Adam%20de%20Craponne%2C%2034000%20Montpellier!5e0!3m2!1sfr!2sfr!4v1666362644365!5m2!1sfr!2sfr" width="1200" height="300" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+        <h2>Nous envooyer un email</h2>
+        <form action="contact.html">
+            <div>
+                <label for="email">Votre email<sup>*</sup></label>
+                <input type="email" required id="email">
+            </div>
+            <div>
+                <label for="firstname">Votre prénom<sup>*</sup></label>
+                <input type="text" required id="firstname" name="firstname">
+            </div>
+            <div>
+                <label for="message">Votre message<sup>*</sup></label>
+                <textarea id="message" name="message" required></textarea>
+            </div>
+            <button type="submit">Envoyer votre email</button>
+        </form>
+    </section>
+    
+    <footer>
+        <address>123 rue de la demonstration</address> 
+    </footer>
+</body>
+</html>
