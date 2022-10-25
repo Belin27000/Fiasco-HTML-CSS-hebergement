@@ -14,9 +14,6 @@
 
 }
 .sidebar{
-    display: flex;
-    align-items: center;
-    justify-content: center;
     flex: 1 0px;
     order: 1;
     width: 20%;
