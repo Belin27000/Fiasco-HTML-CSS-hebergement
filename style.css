@@ -16,9 +16,14 @@ body{
     color:#FFFFFF;
     z-index: 2;
     height: auto;
+    background-image: url(img/Baniere-restaurant-fiasco.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    background-attachment: fixed;
 }
 
-.header img {
+.header img {ß
     width: 100%;
     height: auto;
 }
@@ -37,6 +42,7 @@ body{
     z-index: 3;
 }
 .header-nav a {
+    background-color: rgba(255, 255, 255, 0.2);
     float: left;
     width: 25%;
     color: inherit;
@@ -46,6 +52,7 @@ body{
 text-decoration:underline;
 text-decoration-style: double;
 font-weight: bold;
+background-color: rgba(255, 255, 255, 0.4);
 
 }
 .main {
