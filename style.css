@@ -2,19 +2,24 @@ html, body{
     font-size: 16px;
 }
 body{
-
+    width: 100%;
     margin: 0;
     line-height: 1.4;
-    letter-spacing: 0.2px;
+    letter-spacing: 0.2;
     font-family:"source Sans Pro", sans-serif;
     
 
 }
 .header {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
     background: grey;
-   padding: 20px;
-    height: auto;
+    padding: 20px;
+    height: 30px;
     color:#FFFFFF;
+    z-index: 2;
 }
 
 .header img {
@@ -22,10 +27,12 @@ body{
     height: auto;
 }
 .header-nav{
-    width: 100%;
     margin: 20px 0;   
     text-align: center;
-    background: lightcoral;
+    position: absolute;
+    top: 0;
+    right: 0;
+    z-index: 3;
 }
 .header-nav a {
     padding: 0 10px;
@@ -39,18 +46,23 @@ font-weight: bold;
 
 }
 .header-title{
-    margin-top: 10px 0;
+    position: absolute;
+    left: 10px;
+    top: 10px;
+    margin-top: 0;
+    z-index: 4;
 
 }
 
 .main {
-
+    position: relative;
     background: lightgrey;
-    padding: 20px;
-    font-size: ; 20px;
+    padding: 70px 20px 70px;
+    font-size: 16px;
+    z-index: 1;
 }
 .main p {
-       text-indent: 100px;
+       text-align: justify;
        margin-bottom: 1.5rem;
 }
 
@@ -64,6 +76,5 @@ font-weight: bold;
     background: #5834cf;
     text-decoration: none;
     font-size: 20px;
-    padding:0;
-
-}
+    padding:0.2em 0.5em;
+ }
